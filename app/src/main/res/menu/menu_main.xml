@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.lambtoncollege.androidtestone.MainActivity">
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_black_24dp"/>
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/star_on"/>
+</menu>
